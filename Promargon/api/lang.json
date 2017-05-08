@@ -1,0 +1,10 @@
+{  
+   "Nav":{  
+      "Language":"en",
+      "Home":"Home",
+      "Products":"Products",
+      "Services":"Services",
+      "About":"About us",
+      "Contact":"Contact us"
+   }
+}

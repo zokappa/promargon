@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Decoaries</title>
+    <script data-require="angular.js@1.2.10" data-semver="1.2.10" src="http://code.angularjs.org/1.2.10/angular.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+<body>
+    <div ng-app="app" ng-controller="indexCtrl">
+        <header ng-include="'nav.html'"></header>
+        <div ui-view style="margin-top:70px"></div>
+        <footer ng-include="'footer.html'"></footer>
+    </div>
+</body>
+<!--SCRIPTS-->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--CONTROLLERS-->
+<script src="js/app.js"></script>
+<script src="js/language.js"></script>
+<script src="views/about/aboutCtrl.js"></script>
+<script src="views/home/homeCtrl.js"></script>
+<script src="views/contact/contactCtrl.js"></script>
+<script src="views/products/productsCtrl.js"></script>
+<script src="views/services/servicesCtrl.js"></script>
+
+</html>

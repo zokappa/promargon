@@ -1,0 +1,27 @@
+.carImg {
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url(../../views/home/img/carousel/carrusel1.JPG)
+}
+
+.img2 {
+    background-image: url(../../views/home/img/carousel/carrusel2.jpg)
+}
+
+.img3 {
+    background-image: url(../../views/home/img/carousel/carrusel3.jpg)
+}
+
+.img4 {
+    background-image: url(../../views/home/img/carousel/carrusel4.jpg)
+}
+
+.carousel-caption {
+    bottom: 50%;
+    font-size: 50px;
+}
